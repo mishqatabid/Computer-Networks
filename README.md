@@ -12,11 +12,13 @@
 The structure of the network comprises three departments: cybersecurity, artificial intelligence, and computer science. Within each department, there is a Lab, Faculty Office, and multiple Classrooms. While the actual labs have more than 25 computers, the model in this project represents each lab with 8 computers. Similarly, faculty offices are equipped with 7 computers, and each department includes 5 classrooms. Labs are connected to two switches, faculty offices to one switch, and the six classrooms within each department are linked to a single switch
 
 ![CN1](https://github.com/mishqatabid/Computer-Networks/assets/145700715/d7b1b5ad-1c19-41d4-b143-8090d8a90f6a)
+<br>
 
 # PROCEDURE:
 First, add PCs to the topology and connect them with their respective switches. After performing this function, connect the switches with their respective routers. Now enter the CLI of the router and write the following set of commands to turn the DHCP in the PCs connected with the routers. Add the Respective IP range, subnet mask, default gateways, and respective DNS server IP. Now after writing the commands in the CLI of the routers, enter PC now go to Desktop > IP configuration and from here turn the DHP on. After this, you will observe that the IP is assigned to the computer from the given range, and the subnets and other blanks are assigned their values.
 
 ![CN2](https://github.com/mishqatabid/Computer-Networks/assets/145700715/a762eb9a-3e50-4039-9a4d-63213948c32a)
+<br>
 ![CN3](https://github.com/mishqatabid/Computer-Networks/assets/145700715/b4aecd60-b4c9-4fc2-8d41-bd7a9b23292a)
 
 Now set the servers. Firstly, assign the IPs, subnet masks, default gateways, and DNS server IP in the server configuration menu.
@@ -26,13 +28,16 @@ To set up the DNS server, follow these steps.
 Once you've assigned the IP address, navigate to Services > DNS, and enable the DNS option. Subsequently, input the server name in the Name tab and its IP in the IP Address tab. Additionally, click on the "Add" button below. If desired, you can include the IPs of the computers in this tab. To access the server, open PC > Desktop > Web Browser, and enter either the server's IP or its name. Upon doing so, a message indicating "WEB ACCESSED SUCCESSFULLY" will be displayed. You can also perform a ping to the server from PC > CMD using either the server's name or IP address.
 
 ![Screenshot 2023-12-23 121523](https://github.com/mishqatabid/Computer-Networks/assets/145700715/0cd85f3b-932c-402d-9182-7ed06a8622ab)
+<br>
 ![CN4](https://github.com/mishqatabid/Computer-Networks/assets/145700715/d8edfb55-e271-4a54-a2fc-99fb79b98cd6)
 
 # EMAIL SERVER:
 Upon allocating the IP address, navigate to Services > EMAIL and enable the SMTP & POP options. Subsequently, include a domain in the Domain section, such as mail.com or Gmail.com. Proceed to add usernames and passwords in the designated sections and click the + button below. Additionally, integrate the domain name into your DNS server section. Then, access the CMD of a PC and input either the domain name or the server's IP to ping the server.
 
 ![CN5](https://github.com/mishqatabid/Computer-Networks/assets/145700715/9ead4ea7-7906-47b7-bcfe-aa938b2200e8)
+<br>
 ![CN7](https://github.com/mishqatabid/Computer-Networks/assets/145700715/890cb52b-9fbc-414f-880c-b21c0a8e968e)
+<br>
 ![CN6](https://github.com/mishqatabid/Computer-Networks/assets/145700715/cf44aaec-e8bc-46d4-93c7-aa17dcf599ef)
 
 # ROUTING:
